@@ -22,4 +22,4 @@ BEGIN
     FROM sales;
 END
 
-DELIMITER ;
+DELIMITER;
