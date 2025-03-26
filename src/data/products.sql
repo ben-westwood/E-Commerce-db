@@ -1,3 +1,14 @@
+-- This file contains seed data for the products table in the e-commerce database
+
+-- Insert initial product records
+-- Format: (id, name, description, price, stock_quantity, category_id)
+-- id: Unique identifier for each product
+-- name: Product display name
+-- description: Brief product description
+-- price: Product price in GBP
+-- stock_quantity: Available inventory count
+-- category_id: Foreign key referencing categories table
+
 INSERT INTO products (id, name, description, price, stock_quantity, category_id) VALUES
 (1, 'Laptop', 'High performance laptop', 999.99, 50, 1),
 (2, 'Smartphone', 'Latest model smartphone', 699.99, 100, 1),
