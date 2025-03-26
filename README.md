@@ -15,18 +15,20 @@ ecommerce-db
 │   ├── schema/              # Database structure
 │   │   ├── tables.sql
 │   │   └── relationships.sql
-│   ├── data/               # Sample data
+│   ├── data/                # Sample data
 │   │   ├── products.sql
 │   │   ├── categories.sql
 │   │   ├── customers.sql
 │   │   └── sales.sql
-│   ├── queries/           # Analysis & reporting
+│   ├── queries/             # Analysis & reporting
 │   │   ├── analysis.sql
 │   │   └── reports.sql
 │   └── procedures/
 │       └── stored_procedures.sql
 ├── tests/
 │   └── test_queries.sql
+├── Dockerfile               # Docker image configuration
+├── docker-compose.yml       # Docker container orchestration
 └── README.md
 ```
 
